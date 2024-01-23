@@ -2,7 +2,7 @@
 
 **TODO: Add description**
 
-## Installation
+# Installation
 
 If [available in Hex](https://hex.pm/docs/publish), the package can be installed
 by adding `first_app` to your list of dependencies in `mix.exs`:
@@ -15,7 +15,6 @@ def deps do
 end
 ```
 
-Documentation can be generated with [ExDoc](https://github.com/elixir-lang/ex_doc)
-and published on [HexDocs](https://hexdocs.pm). Once published, the docs can
-be found at <https://hexdocs.pm/first_app>.
-
+- function without names are called anonymous functions.
+- & - The capture operator
+- |> the pipe operator passes the result of one function to the next

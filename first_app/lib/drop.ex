@@ -12,4 +12,8 @@ defmodule Drop do
   def multiplyings({:earth, num}) when num >= 0 do
     num * num * 1.3
   end
+
+  def cattings() do
+    :result
+  end
 end

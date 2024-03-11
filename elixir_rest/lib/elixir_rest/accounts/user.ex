@@ -5,6 +5,7 @@ defmodule ElixirRest.Accounts.User do
   schema "users" do
     field :email, :string
     field :name, :string
+    has_many :posts, ElixirRest.Posts.Post
 
     timestamps(type: :utc_datetime)
   end

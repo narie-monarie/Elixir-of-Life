@@ -19,8 +19,11 @@ defmodule ElixirRestWeb.PostJSON do
     %{
       id: post.id,
       title: post.title,
-      decription: post.decription,
-      body: post.body
+      description: post.decription,
+      body: post.body,
+      user_id: post.user_id,
+      created_at: post.inserted_at,
+      updated_at: post.updated_at
     }
   end
 end

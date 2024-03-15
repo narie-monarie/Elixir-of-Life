@@ -1,26 +1,18 @@
-# Elixir-of-Life
+# Elixir REST
 
-- command to start elixir with some added dependancies
+To start your Phoenix server:
 
-```sh
-mix new {project_name} --sup
-```
+  * Run `mix setup` to install and setup dependencies
+  * Start Phoenix endpoint with `mix phx.server` or inside IEx with `iex -S mix phx.server`
 
-```ex
-  defp deps do
-    [
-      # connect to 3rd party APIS
-      {:httpoison, "~> 2.0"},
-      # JSON encoder and decoder
-      {:poison, "~> 5.0"},
-      # http server communicates between elixir and web server
-      {:plug_cowboy, "~> 2.0"}
-    ]
-  end
-```
+Now you can visit [`localhost:4000`](http://localhost:4000) from your browser.
 
-- Get the Dependencies
+Ready to run in production? Please [check our deployment guides](https://hexdocs.pm/phoenix/deployment.html).
 
-```sh
-mix deps.get
-```
+## Learn more
+
+  * Official website: https://www.phoenixframework.org/
+  * Guides: https://hexdocs.pm/phoenix/overview.html
+  * Docs: https://hexdocs.pm/phoenix
+  * Forum: https://elixirforum.com/c/phoenix-forum
+  * Source: https://github.com/phoenixframework/phoenix

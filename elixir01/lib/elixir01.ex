@@ -41,4 +41,8 @@ defmodule Elixir01 do
     for i <- 0..30, Integer.is_even(i), do: i
     for i <- [1, 2, 3], y <- [4, 5, 6], do: i + y
   end
+
+  def dog() do
+   :dog 
+  end
 end

@@ -1,6 +1,6 @@
-defmodule Helpdesk do
+defmodule Practice do
   @moduledoc """
-  Documentation for `Helpdesk`.
+  Documentation for `Practice`.
   """
 
   @doc """
@@ -8,7 +8,7 @@ defmodule Helpdesk do
 
   ## Examples
 
-      iex> Helpdesk.hello()
+      iex> Practice.hello()
       :world
 
   """
